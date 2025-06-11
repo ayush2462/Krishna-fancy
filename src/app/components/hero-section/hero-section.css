@@ -1,0 +1,35 @@
+.siteBody {
+  z-index: 0;
+  position: relative;
+}
+.ind .siteBody {
+  margin-top: -82px;
+}
+.sec1 {
+  background-image: url(https://kfd.pixelpitara.com/img/headerBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.commonSec {
+  padding: 1rem 5rem;
+}
+.sec1Content h2 {
+  color: white;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.sec1Content h2 span {
+  color: #ffa336;
+}
+.sec1Content p {
+  font-size: 20px;
+  color: white;
+  margin-top: 2rem;
+  text-shadow: 3px 3px 4px #000;
+}

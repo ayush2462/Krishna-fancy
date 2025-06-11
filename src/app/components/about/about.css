@@ -1,0 +1,51 @@
+.aboutSec {
+  display: grid;
+  position: relative;
+  grid-template-columns: 50% 50%;
+  padding: 4rem 5rem;
+  margin: auto;
+}
+.commonSec {
+  padding: 1rem 5rem;
+}
+.aboutSec .aboutLft {
+  position: relative;
+}
+.abtBG {
+  width: 100%;
+  height: 14rem;
+  position: absolute;
+  background: #fc9d33;
+  border-radius: 8px;
+  left: -4rem;
+  z-index: 0;
+  top: 58%;
+}
+.aboutSec img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  vertical-align: middle;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.aboutSec .aboutRight {
+  position: relative;
+  z-index: 1;
+}
+.aboutSec .aboutRight p {
+  margin-left: 1rem;
+  margin-top: 6rem;
+  line-height: 35px;
+  text-align: justify;
+}
+
+.aboutSec .aboutRight h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #678d52;
+  margin-left: -1rem;
+  text-transform: uppercase;
+}

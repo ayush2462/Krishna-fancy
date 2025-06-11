@@ -1,0 +1,73 @@
+.reviewSec {
+  background: #f5f5dc;
+}
+.commonSec {
+  padding: 1rem 5rem;
+}
+h4.site_Head {
+  color: #fc9d33;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+h4.site_Head span {
+  border-bottom: 3px solid #63894c;
+}
+.categoryGrindInd {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.categoryGrindInd i {
+  font-size: 26px;
+  transition: all 0.3s ease-in-out;
+  color: #63894c;
+  cursor: pointer;
+}
+.fa-solid {
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+}
+.fa-angle-left::before {
+  content: "\f104";
+  box-sizing: border-box;
+}
+.fa-angle-right::before {
+  content: "\f105";
+  box-sizing: border-box;
+}
+.categories {
+  display: flex;
+  gap: 1%;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow: auto;
+}
+.categories .categoryCard {
+  min-width: 49.5%;
+  text-align: center;
+  background: #63894c;
+  border-radius: 20px;
+  margin-top: 5rem;
+}
+.categories .categoryCard img {
+  width: 10rem;
+  margin-top: -5rem;
+  border-radius: 50%;
+  border: 8px solid #f5f5dc;
+  vertical-align: middle;
+}
+.categories .categoryCard p {
+  color: white;
+  margin-top: 1rem;
+  padding-inline: 3rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+.categories .categoryCard h5 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+}
