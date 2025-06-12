@@ -34,9 +34,15 @@ h4.site_Head span {
   content: "\f104";
   box-sizing: border-box;
 }
+.fa-angle-left::before:hover {
+  color: #fc9d33;
+}
 .fa-angle-right::before {
   content: "\f105";
   box-sizing: border-box;
+}
+.fa-angle-right::before:hover {
+  color: #fc9d33;
 }
 .categories {
   display: flex;
