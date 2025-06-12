@@ -22,5 +22,5 @@ import { Footer } from './components/footer/footer';
   ],
 })
 export class App {
-  protected title = 'Krishna-fancy';
+  protected title = 'Krishna-Fancy Dress';
 }
